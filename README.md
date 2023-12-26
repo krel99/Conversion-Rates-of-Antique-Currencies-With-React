@@ -1,31 +1,31 @@
-# React + TypeScript + Vite
+# Ancient Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This converter was created to practise stores and Typescript. It converts antique currencies to USD (valued 2023) based on estimates by ChatGPT confirmed by Bard.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Current Features
+- Convert one currency into another
+- View all of the conversion rates in conditionally generated component
 
-## Expanding the ESLint configuration
+### Considerations (If Development Is Continued At Any Point)
+- An ability to edit rates manually and save them
+- Potentially to fetch these rates from a database instead of stores
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
+- Node.js || Bun.js installed on your machine
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Setup
+1. Download or Clone the repository
+2. Extract the zip
+3. Open the folder in command line (one with package.json)
+4. Run ```npm install```
+7. Wait 20-60 seconds
+8. Run ```npm run dev```
+9. Open at localhost:5173
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Conversion-Rates-of-Antique-Currencies-With-React
+## License & Contributing
+This project is open source with no attribution required. Feel free to fork the repository, make improvements, and submit pull requests.
