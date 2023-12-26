@@ -1,0 +1,61 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0px 0 12px 0;
+}
+
+.converter {
+  padding: 18px;
+  width: 800px;
+  height: 150px;
+  border-radius: 18px;
+  background-color: #111;
+  margin-bottom: 24px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+span.input {
+  width: 100%;
+}
+
+span.input select {
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer {
+  color: grey;
+  margin-top: 18px;
+}
+
+table {
+  text-align: left;
+}
+
+table td {
+  padding: 1px 3px;
+}
